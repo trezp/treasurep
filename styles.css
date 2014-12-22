@@ -1,0 +1,97 @@
+/********Universal styles ********/
+
+html {
+	font-family: 'Carrois Gothic', sans-serif;
+}
+
+body {
+	background-color: #81CFE0;
+	padding-top: 50px;
+}
+
+wrapper {
+	width: 90%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #DB0A5B;
+}
+
+#placeholder {
+	width: 100%;
+	height: 300px;
+}
+#bannerBox {
+	height: 30%;
+	color: black; 
+	text-align: center;
+	padding: 15px;
+	line-height: 10px;
+	letter-spacing: .7px;
+}
+
+h1 {
+	color: white;
+	letter-spacing: 1px; 
+	font-size: 3.5em;
+	font-weight: bold;
+
+}
+h2 {
+	color: #F62459;
+}
+
+#nav {
+	position: fixed;
+	top: 0;
+	opacity: .9;
+	z-index: 10000;
+	height: 52px;
+	width: 100%;
+	background-color: black;
+	-webkit-box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
+	box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
+	display: block;
+	}
+
+li {
+	list-style: none;
+	letter-spacing: 1.25px;
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+
+}
+
+ul {
+	padding: 0;
+}
+
+#intro {
+	height: 200px;
+	width: 65%;
+	margin: auto;
+	text-align: left;
+
+}
+.subsection {
+	height: 500px;
+	width: 80%;
+	margin: auto;
+	margin-top: 55px;
+	text-align: center;
+
+}
+
+footer {
+	color: black;
+	text-align: center;
+	line-height: 1px;
+
+}

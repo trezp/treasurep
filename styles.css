@@ -9,8 +9,9 @@ body {
 	padding-top: 50px;
 }
 
-wrapper {
-	width: 90%;
+#wrapper {
+	max-width: 800px; 
+	margin: auto;
 }
 
 a {
@@ -33,6 +34,7 @@ a:hover {
 	padding: 15px;
 	line-height: 10px;
 	letter-spacing: .7px;
+	margin-top: 55px;
 }
 
 h1 {
@@ -44,6 +46,7 @@ h1 {
 }
 h2 {
 	color: #F62459;
+	margin-top: 55px;
 }
 
 #nav {
@@ -71,6 +74,8 @@ li {
 
 ul {
 	padding: 0;
+
+
 }
 
 #intro {
@@ -82,9 +87,10 @@ ul {
 }
 .subsection {
 	height: 500px;
-	width: 80%;
+	border-width: 100px;
+	width: 65%;
 	margin: auto;
-	margin-top: 55px;
+	margin-top: 50px;
 	text-align: center;
 
 }

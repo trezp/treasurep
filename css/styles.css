@@ -9,10 +9,6 @@ body {
 	padding-top: 50px;
 }
 
-#container {
-	margin: auto;
-}
-
 a {
 	text-decoration: none;
 	color: white;
@@ -22,28 +18,15 @@ a:hover {
 	color: #DB0A5B;
 }
 
-
-#bannerBox {
-	height: 30%;
-	color: black; 
-	text-align: center;
-	padding: 15px;
-	line-height: 10px;
-	letter-spacing: .7px;
-	margin-top: 55px;
-}
-
 h1 {
-	color: black;
+	color: white;
 	letter-spacing: 1px; 
 	font-size: 3.5em;
 	font-weight: bold;
 
 }
-
 h2 {
 	color: #F62459;
-	margin-top: 55px;
 }
 
 #nav {
@@ -51,45 +34,40 @@ h2 {
 	top: 0;
 	opacity: .9;
 	z-index: 10000;
-	height: 52px;
+	height: 50px;
 	width: 100%;
 	background-color: black;
 	-webkit-box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
 	box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
-	display: block;
 }
 
-#nav a {
+li {
 	list-style: none;
-	letter-spacing: 2.25px;
+	letter-spacing: 1.25px;
 	display: inline-block;
 	text-align: center;
-	width: 33.3333333%;
-	color: orange;
+	width: 32%;
+	margin-top: 15px;
 }
 
 
-#intro {
-	height: 200px;
-	width: 65%;
+.main p {
+	font-size: 2rem;
+}
+
+.centered {
 	margin: auto;
-	text-align: left;
-
 }
-.subsection {
-	height: 500px;
-	border-width: 100px;
-	width: 65%;
-	margin: auto;
-	margin-top: 50px;
-	text-align: center;
+
+img {
+	margin-top: 55px;
+	border-radius: 50%;
+	width: 150px;
 
 }
 
-footer {
-	color: black;
-	text-align: center;
-	line-height: 1px;
-
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; 
 }

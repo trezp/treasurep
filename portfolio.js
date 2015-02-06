@@ -1,21 +1,22 @@
+var animatedArray = ['Web Developer', 'JavaScript Admirer',
+	'Meteor.js Enthusiast'];
+
+index = 0;
+
+$('document').ready(function(){
+
+	function showWords(){
+		$('#aboutMe').html(animatedArray[index]).fadeIn(950).fadeOut(950)
+		index ++ 
+		if (index >= animatedArray.length){
+			index = 0; 
+		}
+	}
+
+	showWords(); 
+	setInterval(showWords, 2000)
+	
 
 
-
-
-// $('document').ready(function(){
-// 	var animatedArray = ['<span class= "switch1">Web Developer</span>', '<span class= "switch1">JavaScript Admirer</span>',
-// 	'<span class= "switch1">Meteor.js Enthusiast</span>'];
-
-// 	function insertSpan(arrayItem){
-// 	 $('#aboutMe').html(arrayItem).fadeOut(1000)
-// }
-
-// 	for(i = 0; i < animatedArray.length; i++){
-// 		(function(index){
-// 			insertSpan(animatedArray + index)
-// 		})(i);
-		
-// 	}
-
-// });
+});
 	

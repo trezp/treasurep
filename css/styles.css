@@ -25,13 +25,14 @@ h1 {
 	color: white;
 	letter-spacing: 1px; 
 	font-size: 3.5em;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	margin-bottom: 0;
 
 }
 h2 {
 	color: #F62459;
 	margin-top: 0;
+
 }
 
 #aboutMe {
@@ -87,9 +88,13 @@ li {
 }
 
 .treasureIMG {
-	margin-top: 55px;
-	border-radius: 25%;
-	width: 225px;
+    border-radius: 25%;
+    width: 225px;
+    margin-top: 62px;
+}
+
+.imgdiv {
+	width: 100%;
 }
 
 .contact-list {
@@ -133,8 +138,88 @@ li:hover i {
 	margin-top: 4%;
 }
 
-@media (max-width: 750px) {
+#nav-small {
+		display: none;
+	}
+
+
+@media (max-width: 600px) {
 	.contact-list {
 		display: none;
+	}
+}
+
+
+@media(max-width: 700px){
+	/*.switch {
+    height: 70px;
+    padding: 5px;
+    margin: 4px 0px 0px;
+    text-align: center;
+	}*/
+	
+	h2 {
+		font-size: 2.3em;
+		height: 50px;
+	}
+}
+
+@media (max-width: 500px) {
+	#nav-small {
+		display: block;
+		width: 100%;
+		height: 50px;
+		text-align: center;
+		color: black;
+	}
+
+	#nav-small li {
+		width: 19%;
+
+	}
+
+	#nav {
+		display: none;
+	}
+
+	.switch {
+	height: 80px;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	margin-top: 13px;
+	}
+	body {
+		padding: 0;
+	}
+
+
+	.treasureIMG {
+	border-radius: 25%;
+	width: 150px;
+	margin: auto;
+	}
+
+	.imgdiv {
+	width: 100%;
+	text-align: center;
+	/*margin-left: 14%;*/
+	}
+
+	.main-info {
+	margin: 0;
+	text-align: center;
+	}
+
+	h1 {
+	color: white; 
+	font-size: 3.3em;
+	letter-spacing: 0;
+	margin-bottom: 0;
+
+}
+	.welcome {
+		text-align: justify;
+		padding: 5px;
 	}
 }

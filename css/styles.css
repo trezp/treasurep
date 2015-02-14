@@ -1,13 +1,15 @@
 /********Universal styles ********/
 
-html {
-	font-family: 'Carrois Gothic', sans-serif;
-}
-
 body {
+	font-family: 'Carrois Gothic', sans-serif;
 	background-color: #81CFE0;
 	padding-top: 50px;
 	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	max-width: 900px;
+	margin: auto;
 }
 
 a {
@@ -15,7 +17,7 @@ a {
 	color: white;
 }
 
-a:hover {
+li:hover a {
 	color: #DB0A5B;
 }
 
@@ -38,7 +40,9 @@ h2 {
 
 .switch {
 	height: 60px;
+	margin-top: 2%;
 }
+
 #nav {
 	position: fixed;
 	top: 0;
@@ -52,17 +56,26 @@ h2 {
 	box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
 }
 
+#nav li {
+	width: 24%;
+}
+
 li {
 	list-style: none;
 	letter-spacing: 1.25px;
 	display: inline-block;
 	text-align: center;
-	width: 32%;
 	margin-top: 15px;
 }
-
+/**********WELCOME PARAGRAPH**********/
 .welcome {
 	font-size: 2rem;
+	padding-right: 3.667rem;
+	margin-top: 2%;
+}
+
+.main-info {
+	margin-top: 8%;
 }
 
 .main p {
@@ -73,14 +86,55 @@ li {
 	margin: auto;
 }
 
-img {
+.treasureIMG {
 	margin-top: 55px;
-	border-radius: 50%;
+	border-radius: 25%;
 	width: 225px;
+}
 
+.contact-list {
+	margin-left: -9%;
+	color: black;
+	
+}
+.contact-list li {
+	margin: 0;
+	margin-left: 15%;
+	padding: 0;
+	color: black;
+}
+
+.contact-list a {
+	color: black;
+	font-size: 1.3em;
+}
+
+.contact-list i {
+	color: black;
+	margin-right: 20px;
+}
+
+i {
+	color: white;
+	padding: 3px;
+}
+
+li:hover i {
+	color: #DB0A5B;
+}
 }
 
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box; 
+}
+
+.adjustHeight {
+	margin-top: 4%;
+}
+
+@media (max-width: 750px) {
+	.contact-list {
+		display: none;
+	}
 }

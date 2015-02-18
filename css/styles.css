@@ -10,6 +10,7 @@ body {
 .container {
 	max-width: 900px;
 	margin: auto;
+	height: 100vh;
 }
 
 a {
@@ -94,7 +95,6 @@ li {
     width: 225px;
     margin-top: 62px;
     border: solid black 3px;
-
 }
 
 .imgdiv {
@@ -145,6 +145,30 @@ li:hover i {
 #nav-small {
 		display: none;
 	}
+
+/*****************SECTIONS ************/
+
+.projects {
+	height: 100vh;
+	padding-top: 55px;
+	color: white;
+}
+.tick {
+	background-color: #6BB9F0;
+}
+
+.projects h1 {
+	padding: 10px;
+	text-align: center;
+}
+
+.lightyears {
+	background-color: #22313F;
+}
+
+.blc {
+	background-color: #95A5A6;
+}
 
 
 @media (max-width: 600px) {

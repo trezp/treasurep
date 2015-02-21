@@ -13,6 +13,11 @@ body {
 	height: 100vh;
 }
 
+.imgcontainer {
+	margin: auto;
+	background-color: black;
+}
+
 a {
 	text-decoration: none;
 	color: white;
@@ -146,7 +151,7 @@ li:hover i {
 		display: none;
 	}
 
-/*****************SECTIONS ************/
+/*****************SECTIONS *****************/
 
 .projects {
 	height: 100vh;
@@ -166,8 +171,16 @@ li:hover i {
 	background-color: #22313F;
 }
 
+.lightyears h1 {
+	color: white;
+}
+
 .blc {
 	background-color: #95A5A6;
+}
+
+.blc h1 {
+	color: white;
 }
 
 

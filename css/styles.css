@@ -152,8 +152,12 @@ h2 {
 }
 
 i {
-	color: white;
-	padding: 3px;
+	
+	text-align: center;
+}
+
+.fa-github-square {
+	margin-left: 15px;
 }
 
 .contact-list i:hover {
@@ -189,28 +193,18 @@ li:hover i {
 	border-radius: 5px;
 }
 
-@media (max-width: 600px) {
+
+/**************MEDIA QUERIES ***********/
+
+@media (max-width: 700px) {
 	.contact-list {
 		display: none;
 	}
-}
 
-
-@media(max-width: 700px){
-	/*.switch {
-    height: 70px;
-    padding: 5px;
-    margin: 4px 0px 0px;
-    text-align: center;
-	}*/
-	
 	h2 {
 		font-size: 2.3em;
 		height: 50px;
 	}
-}
-
-@media (max-width: 500px) {
 	#nav-small {
 		display: block;
 		width: 100%;

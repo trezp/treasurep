@@ -2,8 +2,9 @@
 
 body {
 	font-family: 'Carrois Gothic', sans-serif;
-	background-color: #81CFE0;
-	padding-top: 50px;
+	/*background-color: #81CFE0;*/
+	background-color: #eeffff;
+	margin-top: 60px;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -11,6 +12,8 @@ body {
 	max-width: 900px;
 	margin: auto;
 	height: 100vh;
+	padding: 2.5%;
+	padding-left: 5%;
 }
 
 .imgcontainer {
@@ -20,39 +23,35 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
-}
-
-li:hover a {
-	color: #DB0A5B;
 }
 
 h1 {
-	font-family: 'Playfair Display', serif;
-	color: black;
-	letter-spacing: 5px; 
-	font-size: 3.5em;
-	/*font-weight: bold;*/
+	font-family: 'Pacifico', cursive;
+	color: #555555;
+	letter-spacing: ; 
+	font-size: 3.7em;
 	margin-bottom: 0;
+	letter-spacing: 2px;
+	
 
 }
+
 h2 {
-	color: #F62459;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #ff5577;
 	margin-top: 0;
-	letter-spacing: 1px;
+	padding-left: 5%;
+	letter-spacing: 2px;
 
 }
 
-#aboutMe {
-	size: 1.25rem;
-}
 
 .switch {
-	height: 60px;
+	height: 65px;
 	margin-top: 2%;
 }
 
-#nav {
+#large-nav ul {
 	position: fixed;
 	top: 0;
 	opacity: .9;
@@ -60,32 +59,56 @@ h2 {
 	height: 50px;
 	width: 100%;
 	background-color: black;
-	-webkit-box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
+	border-bottom: solid #81CFE0 7px;
+	/*-webkit-box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
-	box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);
+	box-shadow: -1px 6px 14px -5px rgba(0,0,0,0.75);*/
 }
 
-#nav li {
-	width: 24%;
-}
 
-li {
-	list-style: none;
-	letter-spacing: 1.25px;
+#large-nav li {
 	display: inline-block;
+	text-decoration: none;
+	width: 16%;
 	text-align: center;
-	margin-top: 15px;
+	padding-top: 13px;
+	letter-spacing: 2px;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+	/*padding: 10px;
+	width: 30%;
+	margin: 5%;
+	border: solid blue 1px;*/
 }
+
+#large-nav li a {
+	/*color: #6C7A89;*/
+	color: #E4F1FE;
+	margin-top: 40px;
+	font-size: 3rem;
+	padding: 20px;
+}
+
+#large-nav li:hover {
+	color: white;
+}
+
+#large-nav li a:hover{
+	color: white;
+}
+
+
+
 /**********WELCOME PARAGRAPH**********/
 .welcome {
 	font-size: 2rem;
-	padding-right: 3.667rem;
+	padding: 0 5%;
 	margin-top: 2%;
 }
 
-.main-info {
+/*.main-info {
 	margin-top: 8%;
-}
+}*/
 
 .main p {
 	font-size: 3rem;
@@ -96,31 +119,31 @@ li {
 }
 
 .treasureIMG {
-    border-radius: 25%;
+    border-radius: 5%;
     width: 225px;
-    margin-top: 62px;
-    border: solid black 3px;
+    /*margin-top: 32px;*/
+    border: solid #2c3e50 3px;
 }
 
 .imgdiv {
 	width: 100%;
 }
 
+/****************CONTACT INFO*************/
+
+
 .contact-list {
-	margin-left: -1%;
+	list-style: none;
 	color: black;
-	
-}
-.contact-list li {
-	margin: 0;
-	margin-left: 15%;
-	padding: 0;
-	color: black;
+	padding: 5%;
+	margin-left: 10px;
+
 }
 
 .contact-list a {
-	color: black;
 	font-size: 1.3em;
+	color: black;
+	padding: 0;
 }
 
 .contact-list i {
@@ -133,10 +156,14 @@ i {
 	padding: 3px;
 }
 
+.contact-list i:hover {
+	color: #DB0A5B
+}
+
 li:hover i {
 	color: #DB0A5B;
 }
-}
+
 
 .u-max-full-width {
   max-width: 100%;
@@ -151,38 +178,16 @@ li:hover i {
 		display: none;
 	}
 
-/*****************SECTIONS *****************/
+/*******************PROJECTS *************/
 
-.projects {
-	height: 100vh;
-	padding-top: 55px;
-	color: white;
+.projectboxes {
+	height: 200px;
+	width: 200px;
+	border: solid black 3px;
+	display: inline-block;
+	margin: 2%;
+	border-radius: 5px;
 }
-.tick {
-	background-color: #6BB9F0;
-}
-
-.projects h1 {
-	padding: 10px;
-	text-align: center;
-}
-
-.lightyears {
-	background-color: #22313F;
-}
-
-.lightyears h1 {
-	color: white;
-}
-
-.blc {
-	background-color: #95A5A6;
-}
-
-.blc h1 {
-	color: white;
-}
-
 
 @media (max-width: 600px) {
 	.contact-list {
@@ -212,15 +217,21 @@ li:hover i {
 		height: 50px;
 		text-align: center;
 		color: black;
+		list-style: none;
 	}
 
 	#nav-small li {
+		display: inline;
+		text-align: center;
+	}
+
+	.fa {
 		width: 19%;
 		color: black;
 
 	}
 
-	#nav {
+	#large-nav {
 		display: none;
 	}
 

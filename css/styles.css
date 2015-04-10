@@ -2,7 +2,6 @@
 
 body {
 	background-color: #eeffff;
-	/*margin-top: 60px;*/
 	font-family: 'Lato', sans-serif;
 
 }
@@ -10,7 +9,6 @@ body {
 .container {
 	max-width: 1000px;
 	margin: auto;
-	/*height: 100vh;*/
 	padding: 2.5%;
 	padding-left: 5%;
 	
@@ -75,7 +73,6 @@ h2 {
 }
 
 #large-nav li a {
-	/*color: #6C7A89;*/
 	color: #E4F1FE;
 	margin-top: 50px;
 	font-size: 2.5rem;
@@ -109,7 +106,6 @@ h2 {
 .treasureIMG {
     border-radius: 2.5%;
     width: 200px;
-    /*margin-top: 32px;*/
     border: solid #2c3e50 2px;
 }
 
@@ -294,7 +290,6 @@ li:hover i {
 	.imgdiv {
 	width: 100%;
 	text-align: center;
-	/*margin-left: 14%;*/
 	}
 
 	.main-info {
